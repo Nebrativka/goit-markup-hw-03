@@ -19,6 +19,13 @@
     letter-spacing: 0.03em;
 }
 
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1230px;
+    outline: 2px solid tomato;
+}
+
 
 /* HEADER */
 
@@ -50,6 +57,11 @@
 
 .address {
     color: var(--secondary-text-color);
+    font-style: normal;
+}
+
+.page-header {
+    background-color: #757575;
 }
 
 
