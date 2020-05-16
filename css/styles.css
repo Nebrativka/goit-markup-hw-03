@@ -38,11 +38,17 @@
 
 .team-list li {
     background-color: #ffffff;
+    text-align: center;
+    list-style: none;
 }
 
 .team-list img:hover,
 .team-list a:focus {
     background-color: var(--text-color-accent);
+}
+
+team-list.h2 {
+    margin-top: 0;
 }
 
 
@@ -70,6 +76,11 @@
 .hero-button {
     background-color: var(--text-color-accent);
     color: #ffffff;
+    width: 200px;
+    height: 50px;
+    padding: 10px 32px;
+    border-radius: 4px;
+    text-decoration: none;
 }
 
 
@@ -80,9 +91,12 @@
 }
 
 .hero-title {
+    margin-top: 0;
+    margin-bottom: 46px;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
+    background-color: tomato;
     /* or 136% */
 }
 
@@ -90,23 +104,37 @@
 /* Заглавие которое я не смог придумать,
 но оно потом будет скрыто */
 
+.about-us {
+    margin-top: 94px;
+}
+
 .about-us .title {
     font-weight: 700;
     font-size: 14px;
     line-height: 1.4;
     text-transform: uppercase;
+    margin-top: 30px;
+    margin-bottom: 0;
 }
 
 .about-us p {
     font-weight: 400;
     font-size: 14px;
     line-height: 1.7;
+    margin-top: 10px;
+    margin-bottom: 0;
 }
 
 
 /* Чем мы занимаемся */
 
+.work-list {
+    margin-top: 30px;
+}
+
 .section-title {
+    margin-top: 0;
+    margin-bottom: 0;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.2;

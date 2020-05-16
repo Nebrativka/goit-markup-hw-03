@@ -12,6 +12,10 @@
 
 /* body */
 
+li {
+    list-style: none;
+}
+
 .page {
     background-color: #ffffff;
     color: var(--primery-text-color);
