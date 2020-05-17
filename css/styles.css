@@ -13,12 +13,34 @@
 
 /* Заглавие которое я не смог придумать */
 
+.about-us {
+    display: block;
+    justify-content: space-between;
+}
+
+.about-us .about+.about {
+    margin-left: 29px;
+}
+
 .about-us .link {
     background-color: #f5f4fa;
 }
 
 
 /* Чем мы занимаемся */
+
+.work-list {
+    padding-left: 0;
+    justify-content: space-between;
+}
+
+.work-list .work+.work {
+    margin-left: 30px;
+}
+
+.work-flex {
+    display: flex;
+}
 
 .work-list p {
     background-color: rgba(47, 48, 58, 0.8);
@@ -27,6 +49,18 @@
 
 
 /* OUR TEAM */
+
+.team-list .team+.team {
+    margin-left: 30px;
+}
+
+.team-list {
+    margin-top: 0;
+    margin-bottom: 0;
+    display: flex;
+    padding-left: 0;
+    justify-content: space-between;
+}
 
 .team-section {
     background-color: #f5f4fa;
@@ -54,6 +88,11 @@ team-list.h2 {
 
 /* Постоянные клиенты */
 
+.regular-customers {
+    display: flex;
+    justify-content: space-between;
+}
+
 .regular-customers img:hover {
     background-color: var(--text-color-accent);
 }
@@ -74,13 +113,23 @@ team-list.h2 {
 }
 
 .hero-button {
+    display: block;
     background-color: var(--text-color-accent);
     color: #ffffff;
     width: 200px;
     height: 50px;
+    line-height: 1.87;
     padding: 10px 32px;
+    margin-top: 46px;
+    letter-spacing: 0.06em;
     border-radius: 4px;
+    border: none;
     text-decoration: none;
+    align-items: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 200px;
 }
 
 
@@ -91,12 +140,14 @@ team-list.h2 {
 }
 
 .hero-title {
+    color: #FFFFFF;
     margin-top: 0;
     margin-bottom: 46px;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
     background-color: tomato;
+    text-transform: uppercase;
     /* or 136% */
 }
 
@@ -105,7 +156,10 @@ team-list.h2 {
 но оно потом будет скрыто */
 
 .about-us {
-    margin-top: 94px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
 }
 
 .about-us .title {
@@ -130,11 +184,12 @@ team-list.h2 {
 
 .work-list {
     margin-top: 30px;
+    margin-bottom: 0;
 }
 
 .section-title {
     margin-top: 0;
-    margin-bottom: 0;
+    margin-bottom: 50px;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.2;

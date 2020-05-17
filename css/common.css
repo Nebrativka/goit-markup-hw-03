@@ -12,6 +12,10 @@
 
 /* body */
 
+.test {
+    outline: 1px solid tomato;
+}
+
 li {
     list-style: none;
 }
@@ -33,17 +37,44 @@ li {
 
 /* HEADER */
 
+.logo-color {
+    color: #2196F3;
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.9;
+}
+
+.header-logo {
+    color: #000000;
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.9;
+    text-decoration: none;
+    margin-top: 24px;
+    margin-bottom: 25px;
+}
+
+.header-nav {
+    display: flex;
+    align-items: center;
+}
+
 .list {
     list-style: none;
 }
 
 .link-list {
+    display: flex;
     text-decoration: none;
     color: #212121;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
     font-weight: 500;
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
 
 .link-list:hover,
@@ -51,8 +82,20 @@ li {
     color: var(--text-color-accent);
 }
 
+
+/* НАВИГАЦИЯ */
+
+.nav-link .item:not(:last-child) {
+    margin-right: 45px;
+}
+
 .nav-link {
+    display: flex;
     color: #212121;
+    padding: 0;
+    margin-left: 80px;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 .nav-link .link-list.current {
@@ -60,12 +103,14 @@ li {
 }
 
 .address {
+    display: flex;
     color: var(--secondary-text-color);
     font-style: normal;
+    margin-left: auto;
 }
 
-.page-header {
-    background-color: #757575;
+.address .link-list+.link-list {
+    margin-left: 30px;
 }
 
 
@@ -85,4 +130,9 @@ li {
     font-weight: 400;
     font-size: 14px;
     line-height: 1.7;
+}
+
+.footer-flex {
+    display: flex;
+    justify-content: flex-start;
 }
