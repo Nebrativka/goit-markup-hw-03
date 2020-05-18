@@ -66,6 +66,10 @@
     background-color: #f5f4fa;
 }
 
+.team-container {
+    padding-bottom: 94px;
+}
+
 .team-section p {
     color: var(--secondary-text-color);
 }
@@ -156,7 +160,7 @@ team-list.h2 {
 но оно потом будет скрыто */
 
 .motivation {
-    padding-bottom: 94px;
+    /* padding-bottom: 47px; */
 }
 
 .about-us {
@@ -186,6 +190,10 @@ team-list.h2 {
 
 /* Чем мы занимаемся */
 
+.work-container {
+    padding-bottom: 94px;
+}
+
 .work-list {
     margin-top: 30px;
     margin-bottom: 0;
@@ -193,6 +201,7 @@ team-list.h2 {
 
 .section-title {
     margin-top: 0;
+    padding-top: 94px;
     margin-bottom: 50px;
     font-weight: 700;
     font-size: 36px;
