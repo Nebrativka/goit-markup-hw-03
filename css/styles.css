@@ -155,6 +155,10 @@ team-list.h2 {
 /* Заглавие которое я не смог придумать,
 но оно потом будет скрыто */
 
+.motivation {
+    padding-bottom: 94px;
+}
+
 .about-us {
     display: flex;
     justify-content: space-between;
