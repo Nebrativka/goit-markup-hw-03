@@ -31,7 +31,7 @@
     </header>
     <!-- портфолио -->
     <div class="container">
-        <section>
+        <section class="portfolio">
             <h1>OUR WORKS</h1>
             <form>
                 <button class="button">Все</button>
@@ -41,56 +41,60 @@
                 <button class="button">Маркетинг</button>
             </form>
             <ul class="link-work">
-                <li><img src="./img/portfolio/name1.jpg" alt="">
-                    <a href="#" class="link-list">
-                        <h3>Технокряк</h3>
-                        <p>Веб-сайт</p>
-                        <p><span class="about-site">Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.</span></p>
-                    </a>
+                <div class="card">
+                    <li><img src="./img/portfolio/name1.jpg" alt="">
+                        <a href="#" class="link-list">
+                            <div class="card-content">
+                                <h3>Технокряк</h3>
+                                <p>Веб-сайт</p>
+                                <!-- <p><span class="about-site">Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.</span></p> -->
+                            </div>
+                </div>
+                </a>
                 </li>
-                <li><img src="./img/portfolio/imggoldenstars.jpg" alt="">
+                <li><img class="card-img" src="./img/portfolio/imggoldenstars.jpg" alt="" width="370" height="294">
                     <a href="#" class="link-list">
                         <h3>Постер New Orlean vs Golden Stars</h3>
                         <p>Дизайн</p>
                     </a>
                 </li>
-                <li><img src="./img/portfolio/imgseafood.jpg" alt="">
+                <li><img src="./img/portfolio/imgseafood.jpg" alt="" width="370" height="294">
                     <a href="#" class="link-list">
                         <h3>Ресторан Seafood</h3>
                         <p>Приложение</p>
                     </a>
                 </li>
-                <li><img src="./img/portfolio/imgprime.jpg" alt="">
+                <li><img src="./img/portfolio/imgprime.jpg" alt="" width="370" height="294">
                     <a href="#" class="link-list">
                         <h3>Проект Prime</h3>
                         <p>Маркетинг</p>
                     </a>
                 </li>
-                <li><img src="./img/portfolio/imgboxes.jpg" alt="">
+                <li><img src="./img/portfolio/imgboxes.jpg" alt="" width="370" height="294">
                     <a href="#" class="link-list">
                         <h3>Проект Boxes</h3>
                         <p>Приложение</p>
                     </a>
                 </li>
-                <li><img src="./img/portfolio/imgbordesr.jpg" alt="">
+                <li><img src="./img/portfolio/imgbordesr.jpg" alt="" width="370" height="294">
                     <a href="#" class="link-list">
                         <h3>Inspiration has no Borders</h3>
                         <p>Веб-сайт</p>
                     </a>
                 </li>
-                <li><img src="./img/portfolio/imglimited.jpg" alt="">
+                <li><img src="./img/portfolio/imglimited.jpg" alt="" width="370" height="294">
                     <a href="#" class="link-list">
                         <h3>Издание Limited Edition</h3>
                         <p>Дизайн</p>
                     </a>
                 </li>
-                <li><img src="./img/portfolio/imglab.jpg" alt="">
+                <li><img src="./img/portfolio/imglab.jpg" alt="" width="370" height="294">
                     <a href="#" class="link-list">
                         <h3>Проект LAB</h3>
                         <p>Маркетинг</p>
                     </a>
                 </li>
-                <li><img src="./img/portfolio/imggroving.jpg" alt="">
+                <li><img src="./img/portfolio/imggroving.jpg" alt="" width="370" height="294">
                     <a href="#" class="link-list">
                         <h3>Growing Business</h3>
                         <p>Приложение</p>
@@ -101,24 +105,29 @@
     </div>
 
     <!-- FOOTER -->
-    <footer class="footer container">
-        <a href="./index.html" class="header-logo"> <span class="logo-color">Web</span> Studio</a>
-        <address>
-            г. Киев, пр-т Леси Украинки, 26
-        </address>
-        <address>
-            <a href="mailto:info@devstudio.com ">info@devstudio.com</a>
-           <a href="tel:+380961111111 ">+38 096 111 11 11</a>
-            </address>
-        <ul>
-            <li>
-                <h3>присоединяйтесь</h3>
-                <a href="https://www.instagram.com "><img src="./img/instagram.png " alt="instagram "></a>
-                <a href="https://twitter.com/ "><img src="./img/twiter.png " alt="twiter "></a>
-                <a href="https://www.facebook.com/ "><img src="./img/facebook.svg " alt="facebook "></a>
-                <a href="https://www.linkedin.com/ "><img src="./img/linkedin.svg " alt="linkedin "></a>
-            </li>
-        </ul>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-flex">
+                <!-- контакты -->
+                <address>
+                <a href="./index.html " class="header-logo"> <span class="logo-color ">Web</span> Studio</a>
+                <br>г. Киев, пр-т Леси Украинки, 26 <br>
+                <a href="mailto:info@devstudio.com">info@devstudio.com</a><br>
+                            <a href="tel:+380961111111">+38 096 111 11 11</a>
+                </address>
+                <!-- соц. сети -->
+                <ul>
+                    <li>
+                        <h3>присоединяйтесь</h3>
+                        <a href="https://www.instagram.com "><img src="./img/instagram.png " alt="instagram "></a>
+                        <a href="https://twitter.com/ "><img src="./img/twiter.png " alt="twiter "></a>
+                        <a href="https://www.facebook.com/ "><img src="./img/facebook.svg " alt="facebook "></a>
+                        <a href="https://www.linkedin.com/ "><img src="./img/linkedin.svg " alt="linkedin "></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <p class="coop">2020 | Developed by GoIT Students</p>
     </footer>
 
 </body>

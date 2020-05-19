@@ -54,6 +54,16 @@
     margin-left: 30px;
 }
 
+.team-list h3 {
+    margin-bottom: 0;
+    margin-top: 30px;
+}
+
+.team-list p {
+    margin-bottom: 16px;
+    margin-top: 10px;
+}
+
 .team-list {
     margin-top: 0;
     margin-bottom: 0;
@@ -95,10 +105,16 @@ team-list.h2 {
 .regular-customers {
     display: flex;
     justify-content: space-between;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 .regular-customers img:hover {
     background-color: var(--text-color-accent);
+}
+
+.customer {
+    padding-bottom: 94px;
 }
 
 
@@ -160,7 +176,7 @@ team-list.h2 {
 но оно потом будет скрыто */
 
 .motivation {
-    /* padding-bottom: 47px; */
+    padding-bottom: 47px;
 }
 
 .about-us {
@@ -218,6 +234,13 @@ team-list.h2 {
     text-transform: uppercase;
 }
 
+.work .info {
+    margin: 0;
+    padding-bottom: 27px;
+    padding-top: 27px;
+    border-radius: 0px 0px 4px 4px;
+}
+
 
 /* OUR TEAM */
 
@@ -246,6 +269,11 @@ team-list.h2 {
     letter-spacing: 0.06em;
 }
 
+.link-work {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
 .link-work li p {
     font-weight: 400;
     font-size: 16px;
@@ -259,4 +287,31 @@ team-list.h2 {
     line-height: 1.56;
     /* or 156% */
     letter-spacing: 0.03em;
+}
+
+.card-img {
+    display: block;
+}
+
+
+/* portfolio */
+
+.portfolio h1 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.card {
+    width: 370px;
+}
+
+.card-content {
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
